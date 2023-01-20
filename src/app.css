@@ -26,10 +26,19 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
-  background-color: var(--dark-cyan);
-  background: url("./assets/img/bg-pattern-top.svg") no-repeat bottom -100% left -50%,
-    var(--dark-cyan) url("./assets/img/bg-pattern-bottom.svg") no-repeat top -100%
-      right -50%;
+  background: url("./assets/img/bg-pattern-top.svg") no-repeat fixed bottom -70%
+      left 125%,
+    var(--dark-cyan) url("./assets/img/bg-pattern-bottom.svg") no-repeat fixed
+      top -90% right 120%;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background: url("./assets/img/bg-pattern-top.svg") no-repeat fixed bottom -60%
+        left -58%,
+      var(--dark-cyan) url("./assets/img/bg-pattern-bottom.svg") no-repeat fixed
+        top -90% right -52%;
+  }
 }
 
 h1 {
