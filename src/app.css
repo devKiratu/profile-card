@@ -21,6 +21,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--dark-cyan);
+  background: url("./assets/img/bg-pattern-top.svg") no-repeat bottom -100% left -50%,
+    var(--dark-cyan) url("./assets/img/bg-pattern-bottom.svg") no-repeat top -100%
+      right -50%;
 }
 
 h1 {
