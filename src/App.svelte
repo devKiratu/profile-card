@@ -1,13 +1,10 @@
 <script>
-  const name = "world";
+  import Card from "./components/Card.svelte";
 </script>
 
 <main>
-  <h1>Hello, {name}</h1>
+  <Card />
 </main>
 
 <style>
-  h1 {
-    color: var(--dark-cyan);
-  }
 </style>

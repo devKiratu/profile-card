@@ -15,11 +15,16 @@
   --dark-gray: hsl(0, 0%, 59%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   background-color: var(--dark-cyan);
   background: url("./assets/img/bg-pattern-top.svg") no-repeat bottom -100% left -50%,
@@ -35,6 +40,5 @@ h1 {
 #app {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
